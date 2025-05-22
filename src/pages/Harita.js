@@ -41,7 +41,7 @@ const Harita = () => {
   }, [link]); // Burada link'i bağımlılık dizisine ekledik
 
   return (
-    <div className="relative min-h-screen bg-sunset bg-no-repeat bg-center bg-cover text-white font-bold px-4 py-6">
+    <div className="flex flex-col items-center justify-center relative min-h-screen bg-sunset bg-no-repeat bg-center bg-cover text-white font-bold p-1">
       {/* Buton */}
       <div className="flex justify-center mb-6">
         <button
