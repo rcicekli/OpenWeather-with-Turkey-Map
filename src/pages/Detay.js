@@ -43,7 +43,7 @@ const Detay = () => {
     <div className="relative mx-auto bg-sunset bg-no-repeat bg-center bg-cover min-h-screen text-white font-bold px-4 py-6">
   <div className="flex space-x-4 justify-center mb-6">
     <div
-      className="text-lg px-5 psy-2 inline-flex items-center justify-center 
+      className="text-md px-5 py-2 inline-flex items-center justify-center 
                  font-semibold rounded-md bg-blue-500 bg-opacity-50 text-white 
                  hover:bg-blue-600 hover:bg-opacity-90 transition-all ease-in-out duration-300 
                  shadow-md hover:shadow-lg cursor-pointer transform hover:scale-105"
@@ -52,13 +52,13 @@ const Detay = () => {
      🌍 Harita Görünümü
     </div>
     <div
-      className="text-lg px-5 psy-2 inline-flex items-center justify-center 
+      className="text-md px-5 py-2 inline-flex items-center justify-center 
                  font-semibold rounded-md bg-blue-500 bg-opacity-50 text-white 
                  hover:bg-blue-600 hover:bg-opacity-90 transition-all ease-in-out duration-300 
                  shadow-md hover:shadow-lg cursor-pointer transform hover:scale-105"
       onClick={listeGit}
     >
-      <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 6h14M5 12h14M5 18h14" />
   </svg>
       Liste Görünümü
